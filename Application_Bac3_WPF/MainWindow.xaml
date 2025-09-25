@@ -1,4 +1,4 @@
-﻿<Window x:Class="Application_Bac3_WPF.MainWindow"
+<Window x:Class="Application_Bac3_WPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Envoi de Mail" Height="400" Width="400">
@@ -13,8 +13,8 @@
         </Grid.RowDefinitions>
         <StackPanel Orientation="Vertical" Grid.Row="0" Margin="0,0,0,10">
             <TextBlock Text="Votre adresse mail :" />
-            <TextBox x:Name="SenderEmailTextBox" TextChanged="SenderEmailTextBox_TextChanged" />
-            <TextBlock Text="Mot de passe (clé d'application) :" Margin="0,10,0,0"/>
+            <TextBox x:Name="SenderEmailTextBox" />
+            <TextBlock Text="Mot de passe (cl� d'application) :" Margin="0,10,0,0"/>
             <PasswordBox x:Name="PasswordBox" />
         </StackPanel>
         <StackPanel Orientation="Vertical" Grid.Row="1" Margin="0,0,0,10">

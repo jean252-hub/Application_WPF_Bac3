@@ -1,4 +1,4 @@
-Ôªøusing System;
+using System;
 using System.Net;
 using System.Net.Mail;
 using System.Windows;
@@ -10,11 +10,6 @@ namespace Application_Bac3_WPF
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void SenderEmailTextBox_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
-        {
-            // Laissez vide ou ajoutez la logique souhait√©e ici
         }
 
         private void SendButton_Click(object sender, RoutedEventArgs e)
@@ -35,7 +30,7 @@ namespace Application_Bac3_WPF
 
             try
             {
-                // D√©tection automatique du serveur SMTP selon l'adresse
+                // DÈtection automatique du serveur SMTP selon l'adresse
                 string smtpHost;
                 int smtpPort;
                 bool enableSsl = true;
@@ -69,7 +64,7 @@ namespace Application_Bac3_WPF
 
                 smtpClient.Send(mailMessage);
 
-                MessageBox.Show("Mail envoy√© avec succ√®s !", "Succ√®s", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Mail envoyÈ avec succËs !", "SuccËs", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
@@ -78,3 +73,4 @@ namespace Application_Bac3_WPF
         }
     }
 }
+
