@@ -1,34 +1,17 @@
 ﻿<Window x:Class="Application_Bac3_WPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Envoi de Mail" Height="400" Width="400">
-    <Grid Margin="10">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
-        <StackPanel Orientation="Vertical" Grid.Row="0" Margin="0,0,0,10">
-            <TextBlock Text="Votre adresse mail :" />
-            <TextBox x:Name="SenderEmailTextBox" TextChanged="SenderEmailTextBox_TextChanged" />
-            <TextBlock Text="Mot de passe (clé d'application) :" Margin="0,10,0,0"/>
-            <PasswordBox x:Name="PasswordBox" />
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Application_Bac3_WPF"
+        mc:Ignorable="d"
+        Title="Page Principale
+        " Height="120" Width="400">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <Button Content="Ouvrir le formulaire mail" Click="OpenMailForm_Click" Width="400" Height="50"/>
+            <Button Content="Ouvrrir la to do list" Click="Open_todolist_Click" Width="400" Height="50"/>
         </StackPanel>
-        <StackPanel Orientation="Vertical" Grid.Row="1" Margin="0,0,0,10">
-            <TextBlock Text="Adresse du destinataire :" />
-            <TextBox x:Name="RecipientEmailTextBox" />
-        </StackPanel>
-        <StackPanel Orientation="Vertical" Grid.Row="2" Margin="0,0,0,10">
-            <TextBlock Text="Objet :" />
-            <TextBox x:Name="SubjectTextBox" />
-        </StackPanel>
-        <StackPanel Orientation="Vertical" Grid.Row="3" Margin="0,0,0,10">
-            <TextBlock Text="Message :" />
-        </StackPanel>
-        <TextBox x:Name="BodyTextBox" Grid.Row="4" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
-        <Button Content="Envoyer" Grid.Row="5" Height="30" Margin="0,10,0,0" Click="SendButton_Click"/>
+
     </Grid>
 </Window>

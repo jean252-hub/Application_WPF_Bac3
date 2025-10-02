@@ -1,0 +1,45 @@
+﻿<Window x:Class="Application_Bac3_WPF.Formulaire_Todo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Application_Bac3_WPF"
+        Title="To do list" Height="450" Width="600">
+    <Window.Resources>
+        <local:DoneToTextStyleConverter x:Key="DoneToTextStyleConverter"/>
+    </Window.Resources>
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,0,0,10">
+            <TextBox x:Name="NewTaskTextBox" Width="220" Margin="0,0,10,0"/>
+            <Button Content="Ajouter" Width="80" Click="AddTask_Click"/>
+        </StackPanel>
+        <ListBox x:Name="TasksListBox" Grid.Row="1" Margin="0,0,0,10" ItemsSource="{Binding Taches}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox IsChecked="{Binding IsDone, Mode=TwoWay}" Margin="0,0,8,0"/>
+                        <TextBox Text="{Binding Titre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                 BorderThickness="0"
+                                 Background="Transparent"
+                                 Foreground="{Binding IsDone, Converter={StaticResource DoneToTextStyleConverter}, ConverterParameter=Color}"
+                                 TextDecorations="{Binding IsDone, Converter={StaticResource DoneToTextStyleConverter}, ConverterParameter=TextDecorations}"
+                                 IsReadOnly="True"
+                                 Focusable="False"
+                                 Width="300"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="0,0,0,10">
+            <TextBox x:Name="ModifyTextbox" Width="220" 
+                     Text="{Binding TacheSelectionnee.Titre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                     Margin="0,0,10,0"/>
+            <Button Content="Modifier" Width="80" Click="ModifyTask_Click"/>
+        </StackPanel>
+        <Button Content="Supprimer" Grid.Row="3" Width="100" HorizontalAlignment="Left" Click="RemoveTask_Click"/>
+    </Grid>
+</Window>
