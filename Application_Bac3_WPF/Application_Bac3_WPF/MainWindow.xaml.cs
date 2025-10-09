@@ -21,5 +21,9 @@ namespace Application_Bac3_WPF
             Formulaire_Todo todoWindow = new Formulaire_Todo();
             todoWindow.Show();
         }
+        public void Open_chronometre_click(object sender, RoutedEventArgs e) { 
+            Formulaire_Chronometre chronoWindow = new Formulaire_Chronometre();
+            chronoWindow.Show();
+        }
     }
 }

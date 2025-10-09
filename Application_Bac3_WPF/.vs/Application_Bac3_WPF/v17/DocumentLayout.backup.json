@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|c:\\users\\jeang\\source\\repos\\application_bac3\\application_wpf_bac3\\application_bac3_wpf\\application_bac3_wpf\\formulaire_todo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|solutionrelative:application_bac3_wpf\\formulaire_todo.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|c:\\users\\jeang\\source\\repos\\application_bac3\\application_wpf_bac3\\application_bac3_wpf\\application_bac3_wpf\\vue\\formulaire_chronometre.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|solutionrelative:application_bac3_wpf\\vue\\formulaire_chronometre.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|c:\\users\\jeang\\source\\repos\\application_bac3\\application_wpf_bac3\\application_bac3_wpf\\application_bac3_wpf\\formulaire_todo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|solutionrelative:application_bac3_wpf\\formulaire_todo.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|c:\\users\\jeang\\source\\repos\\application_bac3\\application_wpf_bac3\\application_bac3_wpf\\application_bac3_wpf\\vue-model\\vm_chronometre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|solutionrelative:application_bac3_wpf\\vue-model\\vm_chronometre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|c:\\users\\jeang\\source\\repos\\application_bac3\\application_wpf_bac3\\application_bac3_wpf\\application_bac3_wpf\\donetotextstyleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|solutionrelative:application_bac3_wpf\\donetotextstyleconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|c:\\users\\jeang\\source\\repos\\application_bac3\\application_wpf_bac3\\application_bac3_wpf\\application_bac3_wpf\\vue-model\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|solutionrelative:application_bac3_wpf\\vue-model\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|c:\\users\\jeang\\source\\repos\\application_bac3\\application_wpf_bac3\\application_bac3_wpf\\application_bac3_wpf\\formulaire_mail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|solutionrelative:application_bac3_wpf\\formulaire_mail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|c:\\users\\jeang\\source\\repos\\application_bac3\\application_wpf_bac3\\application_bac3_wpf\\application_bac3_wpf\\vue\\formulaire_chronometre.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|solutionrelative:application_bac3_wpf\\vue\\formulaire_chronometre.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|c:\\users\\jeang\\source\\repos\\application_bac3\\application_wpf_bac3\\application_bac3_wpf\\application_bac3_wpf\\formulaire_mail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|solutionrelative:application_bac3_wpf\\formulaire_mail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|c:\\users\\jeang\\source\\repos\\application_bac3\\application_wpf_bac3\\application_bac3_wpf\\application_bac3_wpf\\tache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|solutionrelative:application_bac3_wpf\\tache.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|c:\\users\\jeang\\source\\repos\\application_bac3\\application_wpf_bac3\\application_bac3_wpf\\application_bac3_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|solutionrelative:application_bac3_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|c:\\users\\jeang\\source\\repos\\application_bac3\\application_wpf_bac3\\application_bac3_wpf\\application_bac3_wpf\\model\\m_chronometre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|solutionrelative:application_bac3_wpf\\model\\m_chronometre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|c:\\users\\jeang\\source\\repos\\application_bac3\\application_wpf_bac3\\application_bac3_wpf\\application_bac3_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|solutionrelative:application_bac3_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|c:\\users\\jeang\\source\\repos\\application_bac3\\application_wpf_bac3\\application_bac3_wpf\\application_bac3_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E530E758-7581-4D70-906A-CD95479AAD51}|Application_Bac3_WPF\\Application_Bac3_WPF.csproj|solutionrelative:application_bac3_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 213,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,83 +54,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Tache.cs",
-              "DocumentMoniker": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Tache.cs",
-              "RelativeDocumentMoniker": "Application_Bac3_WPF\\Tache.cs",
-              "ToolTip": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Tache.cs",
-              "RelativeToolTip": "Application_Bac3_WPF\\Tache.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "M_Chronometre.cs",
+              "DocumentMoniker": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Model\\M_Chronometre.cs",
+              "RelativeDocumentMoniker": "Application_Bac3_WPF\\Model\\M_Chronometre.cs",
+              "ToolTip": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Model\\M_Chronometre.cs",
+              "RelativeToolTip": "Application_Bac3_WPF\\Model\\M_Chronometre.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T09:06:36.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DoneToTextStyleConverter.cs",
-              "DocumentMoniker": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\DoneToTextStyleConverter.cs",
-              "RelativeDocumentMoniker": "Application_Bac3_WPF\\DoneToTextStyleConverter.cs",
-              "ToolTip": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\DoneToTextStyleConverter.cs",
-              "RelativeToolTip": "Application_Bac3_WPF\\DoneToTextStyleConverter.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T09:06:13.478Z",
+              "WhenOpened": "2025-10-09T08:36:28.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Formulaire_Todo.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Formulaire_Todo.xaml.cs",
-              "RelativeDocumentMoniker": "Application_Bac3_WPF\\Formulaire_Todo.xaml.cs",
-              "ToolTip": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Formulaire_Todo.xaml.cs",
-              "RelativeToolTip": "Application_Bac3_WPF\\Formulaire_Todo.xaml.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwDAAAAAUAAAAAAAAAA==",
+              "Title": "VM_Chronometre.cs",
+              "DocumentMoniker": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Vue-Model\\VM_Chronometre.cs",
+              "RelativeDocumentMoniker": "Application_Bac3_WPF\\Vue-Model\\VM_Chronometre.cs",
+              "ToolTip": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Vue-Model\\VM_Chronometre.cs",
+              "RelativeToolTip": "Application_Bac3_WPF\\Vue-Model\\VM_Chronometre.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T09:05:31.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Formulaire_Todo.xaml",
-              "DocumentMoniker": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Formulaire_Todo.xaml",
-              "RelativeDocumentMoniker": "Application_Bac3_WPF\\Formulaire_Todo.xaml",
-              "ToolTip": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Formulaire_Todo.xaml",
-              "RelativeToolTip": "Application_Bac3_WPF\\Formulaire_Todo.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-02T08:17:15.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Formulaire_Mail.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Formulaire_Mail.xaml.cs",
-              "RelativeDocumentMoniker": "Application_Bac3_WPF\\Formulaire_Mail.xaml.cs",
-              "ToolTip": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Formulaire_Mail.xaml.cs",
-              "RelativeToolTip": "Application_Bac3_WPF\\Formulaire_Mail.xaml.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAgwCYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T08:03:08.584Z",
+              "WhenOpened": "2025-10-09T08:19:08.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Formulaire_Mail.xaml",
-              "DocumentMoniker": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Formulaire_Mail.xaml",
-              "RelativeDocumentMoniker": "Application_Bac3_WPF\\Formulaire_Mail.xaml",
-              "ToolTip": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Formulaire_Mail.xaml",
-              "RelativeToolTip": "Application_Bac3_WPF\\Formulaire_Mail.xaml",
+              "Title": "Formulaire_Chronometre.xaml",
+              "DocumentMoniker": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Vue\\Formulaire_Chronometre.xaml",
+              "RelativeDocumentMoniker": "Application_Bac3_WPF\\Vue\\Formulaire_Chronometre.xaml",
+              "ToolTip": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Vue\\Formulaire_Chronometre.xaml",
+              "RelativeToolTip": "Application_Bac3_WPF\\Vue\\Formulaire_Chronometre.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-02T08:00:58.023Z",
+              "WhenOpened": "2025-10-09T08:00:52.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Vue-Model\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Application_Bac3_WPF\\Vue-Model\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Vue-Model\\RelayCommand.cs",
+              "RelativeToolTip": "Application_Bac3_WPF\\Vue-Model\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T08:54:28.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Formulaire_Chronometre.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Vue\\Formulaire_Chronometre.xaml.cs",
+              "RelativeDocumentMoniker": "Application_Bac3_WPF\\Vue\\Formulaire_Chronometre.xaml.cs",
+              "ToolTip": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\Vue\\Formulaire_Chronometre.xaml.cs",
+              "RelativeToolTip": "Application_Bac3_WPF\\Vue\\Formulaire_Chronometre.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T08:00:56.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Application_Bac3_WPF\\MainWindow.xaml",
@@ -152,20 +136,10 @@
               "RelativeDocumentMoniker": "Application_Bac3_WPF\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\jeang\\source\\repos\\Application_Bac3\\Application_WPF_Bac3\\Application_Bac3_WPF\\Application_Bac3_WPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "Application_Bac3_WPF\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-25T08:58:03.256Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         },
