@@ -6,12 +6,13 @@
         xmlns:local="clr-namespace:Application_Bac3_WPF"
         mc:Ignorable="d"
         Title="Page Principale
-        " Height="180" Width="400">
+        " Height="240" Width="400">
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
             <Button Content="Ouvrir le formulaire mail" Click="OpenMailForm_Click" Width="400" Height="50"/>
             <Button Content="Ouvrir la to do list" Click="Open_todolist_Click" Width="400" Height="50"/>
             <Button Content="Ouvrir chronomètre" Click="Open_chronometre_click" Width="400" Height="50"/>
+            <Button Content="Connection serveur" Click="Open_connection_serveur_click" Width="400" Height="50"/>
         </StackPanel>
 
     </Grid>

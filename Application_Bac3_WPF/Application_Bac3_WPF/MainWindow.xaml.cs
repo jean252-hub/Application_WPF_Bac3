@@ -25,5 +25,10 @@ namespace Application_Bac3_WPF
             Formulaire_Chronometre chronoWindow = new Formulaire_Chronometre();
             chronoWindow.Show();
         }
+        public void Open_connection_serveur_click(object sender, RoutedEventArgs e)
+        {
+            Formulaire_Connection_Serveur serveurWindow = new Formulaire_Connection_Serveur();
+            serveurWindow.Show();
+        }
     }
 }
