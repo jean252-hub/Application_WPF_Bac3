@@ -13,7 +13,6 @@ namespace Application_Bac3_WPF
 {
     public partial class Formulaire_Connection_Serveur : Window
     {
-        // ================= TCP Listener/Client =================
         private TcpListener tcpListener;
         private List<TcpClient> tcpClients = new List<TcpClient>();
         private TcpClient tcpClient;
@@ -21,7 +20,6 @@ namespace Application_Bac3_WPF
         private BinaryReader reader;
         private BinaryWriter writer;
 
-        // ================= Socket =================
         private TcpListener socketListener;
         private TcpClient socketClient;
         private NetworkStream socketStream;
@@ -29,15 +27,13 @@ namespace Application_Bac3_WPF
         private BinaryWriter socketWriter;
         private List<TcpClient> socketClients = new List<TcpClient>();
 
-        // ================= UDP =================
+        
         private UdpClient udpClient;
 
         public Formulaire_Connection_Serveur()
         {
             InitializeComponent();
         }
-
-        #region ===== UDP =====
         private async void UDP_Ecouter_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -82,9 +78,7 @@ namespace Application_Bac3_WPF
                 MessageBox.Show("Erreur UDP Connecter : " + ex.Message);
             }
         }
-        #endregion
 
-        #region ===== TCP Serveur =====
         private async void Listener_Ecouter_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -128,7 +122,7 @@ namespace Application_Bac3_WPF
                         });
 
                         // Accusé de réception
-                        writer.Write("Message reçu ✅");
+                        writer.Write("Message reçu");
                         writer.Flush();
                     }
                     else
@@ -150,9 +144,7 @@ namespace Application_Bac3_WPF
                 client.Close();
             }
         }
-        #endregion
 
-        #region ===== TCP Client =====
         private async void Listener_Connecter_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -166,7 +158,7 @@ namespace Application_Bac3_WPF
 
                 tcpClient = new TcpClient();
                 await tcpClient.ConnectAsync(serveur, 8000);
-                txtEchanges.AppendText("Connexion TCP au serveur réussie ✅\n");
+                txtEchanges.AppendText("Connexion TCP au serveur réussie\n");
 
                 netStream = tcpClient.GetStream();
                 reader = new BinaryReader(netStream);
@@ -236,9 +228,7 @@ namespace Application_Bac3_WPF
                 MessageBox.Show("Erreur Send : " + ex.Message);
             }
         }
-        #endregion
 
-        #region ===== SOCKET =====
         private async void Socket_Ecouter_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -282,7 +272,7 @@ namespace Application_Bac3_WPF
                         });
 
                         // Réponse automatique
-                        writer.Write("Message reçu ✅");
+                        writer.Write("Message reçu");
                         writer.Flush();
                     }
                     else
@@ -318,7 +308,7 @@ namespace Application_Bac3_WPF
 
                 socketClient = new TcpClient();
                 await socketClient.ConnectAsync(serveur, 9000);
-                txtEchanges.AppendText("Connexion Socket au serveur réussie ✅\n");
+                txtEchanges.AppendText("Connexion Socket au serveur réussie\n");
 
                 socketStream = socketClient.GetStream();
                 socketReader = new BinaryReader(socketStream);
@@ -373,16 +363,14 @@ namespace Application_Bac3_WPF
                 if (socketListener != null) socketListener.Stop();
                 socketClients.Clear();
 
-                txtEchanges.AppendText("Socket déconnectée ✅\n");
+                txtEchanges.AppendText("Socket déconnectée\n");
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Erreur Socket Déconnecter : " + ex.Message);
             }
         }
-        #endregion
 
-        #region ===== Utilitaire =====
         private async void Utilitaire_Verifier_Click(object sender, RoutedEventArgs e)
         {
             string serveur = txtServeur.Text.Trim();
@@ -409,18 +397,18 @@ namespace Application_Bac3_WPF
                 if (reply.Status == IPStatus.Success)
                 {
                     txtIP.Text = ip.ToString();
-                    MessageBox.Show("Serveur valide et ping réussi ✅");
+                    MessageBox.Show("Serveur valide et ping réussi");
                 }
                 else
                 {
-                    MessageBox.Show("Ping échoué ❌");
+                    MessageBox.Show("Ping échoué");
                 }
             }
             catch
             {
-                MessageBox.Show("Serveur invalide ou ping impossible ❌");
+                MessageBox.Show("Serveur invalide ou ping impossible");
             }
         }
-        #endregion
+
     }
 }
